@@ -1,4 +1,4 @@
-FROM NishNishendanidu/redbkacky:fullcontrol 
+FROM nishnishendanidu/redbkacky:fullcontrol 
 
 RUN git clone https://github.com/NishNishendanidu/redBLACKY/root/RedBlackyWhatsappBot
 
