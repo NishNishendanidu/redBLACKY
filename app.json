@@ -1,6 +1,6 @@
 {
 
-  "name": "Small Sharp Tool",
+  "name": "Red Blacky",
 
   "description": "This app does one little thing, and does it well.",
 
@@ -30,11 +30,31 @@
 
   "env": {
 
-    "SECRET_TOKEN": {
+    "RED_BLACKY_SESSION": {
 
       "description": "A secret key for verifying the integrity of signed cookies.",
 
-      "generator": "secret"
+      "value":   
+      
+      
+      "NAME_OWNER
+      
+      "description": "type owner name" 
+      
+      "value":"nishen" 
+      
+      "Alive_massege" 
+      
+      "description": "alive logo link" 
+      
+      "value":"https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg" 
+      
+      "welcome_massege"
+      
+      "description":"link welcome massege"
+      
+      "value":"https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg"
+      
 
     },
 
