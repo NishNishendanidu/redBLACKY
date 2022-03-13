@@ -180,7 +180,9 @@
 
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර පාස්වඩ් එක්ට nishen යොදන්න"
 
-            "required": true 
+            "required": false 
+            
+            },
             
      
 
