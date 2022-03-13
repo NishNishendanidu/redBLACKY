@@ -18,7 +18,7 @@
 
   "repository": "https://github.com/NishNishendanidu/redBLACKY",
 
-  "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg",
+  "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg"
 
   "success_url": "/welcome",
 
@@ -36,7 +36,7 @@
 
       "generator": "secret" 
 
-      } 
+      },
 
       "Alive_logo"
 
@@ -44,7 +44,7 @@
 
      "value" https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg"  
 
-      }
+      },
 
     
 
@@ -58,7 +58,7 @@
 
       "value": "5"
 
-    }
+    },
 
   },
 
@@ -70,7 +70,7 @@
 
       "size": "standard-1x"
 
-    }
+    },
 
   },
 
