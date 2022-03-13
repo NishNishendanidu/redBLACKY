@@ -1,6 +1,6 @@
-FROM nishnishendanidu/redbkacky:fullcontrol 
+FROM nishnishendanidu/redblacky:fullcontrol 
 
-RUN git clone https://github.com/NishNishendanidu/redBLACKY/root/RedBlackyWhatsappBot
+RUN git clone https://github.com/NishNishendanidu/redblacky/root/RedBlackyWhatsappBot
 
 WORKDIR /root/BlackyRedWhatsappBot/
 
