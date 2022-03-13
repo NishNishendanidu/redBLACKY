@@ -1,12 +1,12 @@
 {
-    "name": "RedBlacky",
-    "description": "Nishen project ",
+    "name": "REDBLACKY",
+    "description": "Nishenproject ",
     "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg"
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "https://github.com/NishNishendanidu/redBLACKY.git",
     "stack": "container",
     "env": {
-        "REDBLACKY_SESSION": {
+        "RED_BLACKY_SESSION": {
             "description": "token de sessão do bot. (gere ele rodando o script 'qr.js' do projeto",
             "required": true
         },
