@@ -16,15 +16,15 @@
 
   "website": "https://small-sharp-tool.com/",
 
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "repository": "https://github.com/NishNishendanidu/redBLACKY",
 
-  "logo": "https://small-sharp-tool.com/logo.svg",
+  "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg",
 
   "success_url": "/welcome",
 
   "scripts": {
 
-    "postdeploy": "bundle exec rake bootstrap"
+  "postdeploy": "bundle exec rake bootstrap"
 
   },
 
@@ -34,7 +34,8 @@
 
       "description": "A secret key for verifying the integrity of signed cookies.",
 
-      "value":   
+      "value" ." 
+      
       
       
       "NAME_OWNER"
@@ -43,17 +44,21 @@
       
       "value":"nishen" 
       
+      
+      
       "Alive_massege" 
       
       "description": "alive logo link" 
       
       "value":"https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg" 
       
+      
+      
       "welcome_massege"
       
       "description":"link welcome massege"
       
-      "value":"https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg"
+      "value":"https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg" 
       
 
     },
