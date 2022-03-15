@@ -22,11 +22,11 @@
 
         "LANGUAGE": {
 
-            "description": "Enter the language you want (EN or SI), ඔබට අවශ්‍ය භාෂාව ඇතුලත් කරන්න.. (EN හො SI)",
+            "description": "Enter the language you want (SI), භාෂාව ඇතුලත් කරන්න(SI)",
 
             "required": true,
 
-            "value": "en"
+            "value": "SI"
 
         },
 
