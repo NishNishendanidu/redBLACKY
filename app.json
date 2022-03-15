@@ -178,7 +178,7 @@
 
           "ZZ_PASSWORD": {
 
-            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර .password required nishen යොදන්න",
+            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර .password required පාස්වඩ් එකට nishen යොදන්න",
 
             "required": true
 
