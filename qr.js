@@ -32,9 +32,9 @@ async function queenAmdi () {
 
     conn.on('🔄 connecting', async () => {
 
-        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold(' Amdi')}
+        console.log(`${chalk.green.bold('Red')}${chalk.blue.bold(' Blacky')}
 
-${chalk.white.italic('Queen Amdi Sting session')}
+${chalk.white.italic('Red Blacky Sting session')}
 
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 
@@ -46,7 +46,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 
 			chalk.green.bold('RedBlackyQR Code: '),
 
-			'AMDI;;;' +
+			'Blacky;;;' +
 
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 
@@ -126,4 +126,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
 
 }
 
-queenAmdi()
+redBlacky()
