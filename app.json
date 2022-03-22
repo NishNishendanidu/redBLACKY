@@ -22,7 +22,7 @@
             "value": "EN"
         },
         "PROXY": {
-       ": "Proxy Adresi. Proxy Address => http://some-host:1234",
+       ":Proxy Adresi. Proxy Address=> http://some-host:1234",
             "required": false,
             "value": "false"
         },
