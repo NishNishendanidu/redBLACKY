@@ -3,7 +3,7 @@
     "description": "Nishen project ",
     "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
-    "repository": "https://github.com/NishNishendanidu/redBLACKY",
+    "repository":"https://github.com/NishNishendanidu/redBLACKY",
     "stack": "container",
     "env": {https://github.com/NishNishendanidu/redBLACKY"
         "REDBLACKY_SESSION": {
