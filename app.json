@@ -5,7 +5,7 @@
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository":"https://github.com/NishNishendanidu/redBLACKY",
     "stack": "container",
-    "env":{https://github.com/NishNishendanidu/redBLACKY"
+    "env":{"https://github.com/NishNishendanidu/redBLACKY"
         "REDBLACKY_SESSION": {
             "description": "මෙතනට රෙඩ් බ්ලැකී සෙසන් එක ඇතුලත් කරන්න'",
             "required": true
