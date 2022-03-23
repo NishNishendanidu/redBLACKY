@@ -1,0 +1,98 @@
+{
+    "name": "RedBlacky",
+    "description": "Nishen project ",
+    "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
+    "repository": "https://github.com/NishNishendanidu/redBLACKY",
+    "stack": "container",
+    "env": {https://github.com/NishNishendanidu/redBLACKY"
+        "REDBLACKY_SESSION": {
+            "description": "මෙතනට රෙඩ් බ්ලැකී සෙසන් එක ඇතුලත් කරන්න'",
+            "required": true
+        },
+        "SUDO": {
+            "description": "deixe em branco oque é isso. (insira",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": " (language english EN =)",
+            "required": true,
+            "value": "EN"
+        },
+        "HANDLERS": {
+            "description": "simbolo de identificação de comando.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "SEND_READ": {
+            "description": "Ativar ou desativar a confirmação de leitura de mensagem pelo bot (true para ele enviar a confirmação, e False para ele não enviar confirmação) ",
+            "required": true,
+            "value": "true"
+        },
+        "MUTE_MESSAGE": {
+            "description": "Mensagem exibida ao mutar um grupo (use default para usar a mensagem padrão do bot)",
+            "required": false,
+            "value": "default"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Mensagem exibida ao desmutar um grupo (use default para usar a mensagem padrão do bot)",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "Modo de operação do bot. Defina public se você quer que qualquer pessoa use o bot, ou private se apenas o proprio numero do bot pode executar os comandos",
+            "required": true,
+            "value": "private"
+        },
+        "DEBUG": {
+            "description": "Ativar ou desativar as mensagens de debug do bot (deixe false se nao sabe oque é isso)",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "API usada para o comando de remoção do fundo das fotos. (https://remove.bg)",
+            "required": true
+        },
+        "ALIVE_MESSAGE": {
+            "description": "Mensagem personalizada que exibe se o bot está ativo (comando .alive). deixe default para usar a mensagem padrão",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "Mensagem personalizada de ban, deixe default para usar a padrão.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "Mensagem personalizada de kick, deixe default para usar a padrão.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "Mensagem personalizada de promote em grupo, deixe default para usar a padrão.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "Mensagem personalizada de demote em grupo, deixe default para usar a padrão.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Mensagem personalizada do modo AFK, deixe default para usar a padrão.",
+            "required": false,
+            "value": "default"
+        },
+        "NO_ONLINE": {
+            "description": "Coloque True se você não quiser que o bot apareça online.",
+            "required": false,
+            "value": "true"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
