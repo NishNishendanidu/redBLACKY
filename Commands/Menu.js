@@ -22,7 +22,7 @@ RedBlacky['IntroduceCMD']({
 
 if(Details.WORKTYPE !== 'public') return;
 
-await sendMessageAllMenupb(QueenSew,input)
+await sendMessageAllMenupb(BlackyRed,input)
 
 })); 
 
@@ -38,7 +38,7 @@ RedBlacky['IntroduceCMD']({
 
 (async (BlackyRed,input) => { 
 
-await sendMessageAllMenupv(QueenSew,input)
+await sendMessageAllMenupv(BlackyRed,input)
 
 })); 
 
@@ -106,7 +106,7 @@ RedBlacky['IntroduceCMD']({
 
 (async (BlackyRed.input) => { 
 
-await sendMessageAllMenupv(QueenSew,input)
+await sendMessageAllMenupv(BlackyRed,input)
 
 })); 
 
@@ -208,6 +208,6 @@ RedBlacky['IntroduceCMD']({
 
 (async (BlackyRed,input) => { 
 
-await sendMessageonemenupv(QueenSew,input)
+await sendMessageonemenupv(BlackyRed,input)
 
 })); 
