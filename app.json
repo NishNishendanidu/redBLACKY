@@ -18,9 +18,9 @@
 
     "env": {
 
-        "ASENA_SESSION": {
+        "REDBLACKY_SESSION": {
 
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours ALPHA Session.",
 
             "required": true
 
@@ -36,11 +36,11 @@
 
         "LANGUAGE": {
 
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
+            "description": "Bot language.English => en,",
 
             "required": true,
 
-            "value": "TR"
+            "value": "EN"
 
         },
 
