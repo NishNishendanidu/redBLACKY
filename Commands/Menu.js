@@ -178,7 +178,7 @@ await sendMessageAllMenupv(BlackyRed,input)
 
 })); 
 
-SewQueen['IntroduceCMD']({
+ RedBlacky['IntroduceCMD']({
 
         pattern: 'letcmd ?(.*)', 
 
