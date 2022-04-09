@@ -70,11 +70,11 @@ SewQueen['IntroduceCMD']({
 
         try { 
 
-await sendMessageDownloader(QueenSew, input, 'insta') 
+await sendMessageDownloader(BlackyRed, input, 'insta') 
 
                 } catch (e) { 
 
-                  return await QueenSew.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find This Insta Video!',MessageType.text, { quoted: QueenSew.data}) 
+                  return await BlackyRed.client.sendMessage(BlackyRed.jid,'Sorry I Could Not Find This Insta Video!',MessageType.text, { quoted: BlackyRed.data}) 
 
               } 
 
@@ -104,7 +104,7 @@ await sendMessageDownloader(BlackyRed, input, 'github')
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'tiktok ?(.*)',   // Tiktok Download 
 
@@ -116,11 +116,11 @@ SewQueen['IntroduceCMD']({
 
 (async (BlackyRed, input) => { 
 
-await sendMessageDownloader(QueenSew, input, 'tiktok') 
+await sendMessageDownloader(BlackyRed, input, 'tiktok') 
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'url ?(.*)',     // Image To Url 
 
@@ -132,7 +132,7 @@ SewQueen['IntroduceCMD']({
 
 (async (BlackyRed, input) => { 
 
-        if (QueenSew.reply_message === false || BlackyRed.reply_message.image === false) return await BlackyRed.client.sendMessage(QueenSew.jid,'Reply To Any Image...',MessageType.text); 
+        if (BlackyRed.reply_message === false || BlackyRed.reply_message.image === false) return await BlackyRed.client.sendMessage(BlackyRed.jid,'Reply To Any Image...',MessageType.text); 
 
         try { 
 
@@ -170,7 +170,7 @@ await sendMessageDownloader(BlackyRed, input, 'covid')
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'trt ?(.*)',    // Language Translate 
 
@@ -184,7 +184,7 @@ SewQueen['IntroduceCMD']({
 
         if (!BlackyRed.reply_message) { 
 
-            return await BlackyRed.client.sendMessage(QueenSew.jid,Lang.NEED_REPLY,MessageType.text); 
+            return await BlackyRed.client.sendMessage(BlackyRed.jid,Lang.NEED_REPLY,MessageType.text); 
 
         } 
 
@@ -210,7 +210,7 @@ SewQueen['IntroduceCMD']({
 
    
 
-       let ceviri = await translatte(QueenSew.reply_message.message, {from: langa, to: langb}); 
+       let ceviri = await translatte(BlackyRed.reply_message.message, {from: langa, to: langb}); 
 
         if ('text' in ceviri) { 
 
@@ -244,7 +244,7 @@ await sendMessageDownloader(RedBlacky, input, 'tts')
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'wiki ?(.*)',  // Wikipedia Download 
 
@@ -256,11 +256,11 @@ SewQueen['IntroduceCMD']({
 
 (async (BlackyRed, input) => { 
 
-await sendMessageDownloader(QueenSew, input, 'wiki') 
+await sendMessageDownloader(BlackyRed, input, 'wiki') 
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'img ?(.*)',  // Google Image Download With 10+ images 
 
@@ -276,7 +276,7 @@ await sendMessageDownloader(QueenSew, input, 'imgsend')
 
 })); 
 
-SewQueen['IntroduceCMD']({ 
+RedBlacky['IntroduceCMD']({ 
 
         pattern: 'wallpaper ?(.*)',   // Hd Wallpaper Download With Search Option 100000000+ 
 
@@ -304,7 +304,7 @@ RedBlacky['IntroduceCMD']({
 
 (async (BlackyRed, input) => { 
 
-await sendMessageDownloader(QueenSew, input, 'pint') 
+await sendMessageDownloader(BlackyRed, input, 'pint') 
 
 })); 
 
@@ -320,7 +320,7 @@ RedBlacky['IntroduceCMD']({
 
 (async (QueenSew, input) => { 
 
-await sendMessageDownloader(QueenSew, input, 'yts') 
+await sendMessageDownloader(BlackyRed, input, 'yts') 
 
 })); 
 
@@ -374,15 +374,15 @@ RedBlacky['IntroduceCMD']({
 
         }, 
 
-(async (QueenSew, input) => { 
+(async (BlackyRed, input) => { 
 
         try { 
 
-await downloadtwittersewqueen(QueenSew, input) 
+await downloadtwittersewqueen(BlackyRed, input) 
 
                } catch (e) { 
 
-                  return await QueenSew.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find It!',MessageType.text, { quoted: QueenSew.data}) 
+                  return await BlackyRed.client.sendMessage(BlackyRed.jid,'Sorry I Could Not Find It!',MessageType.text, { quoted: BlackyRed.data}) 
 
                   } 
 
@@ -402,11 +402,11 @@ RedBlacky['IntroduceCMD']({
 
         try { 
 
-await sendMessageDownloader(QueenSew, input, 'ytv') 
+await sendMessageDownloader(BlackyRed, input, 'ytv') 
 
               } catch (e) { 
 
-                  return await QueenSew.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find This Video!',MessageType.text, { quoted: QueenSew.data}) 
+                  return await BlackyRed.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find This Video!',MessageType.text, { quoted: QueenSew.data}) 
 
                   } 
 
@@ -426,11 +426,11 @@ BlackyRed['IntroduceCMD']({
 
         try { 
 
-await sendMessageDownloader(QueenSew, input, 'gitclone') 
+await sendMessageDownloader(BlackyRed, input, 'gitclone') 
 
                 } catch (e) { 
 
-                  return await QueenSew.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find master Branch Of this Repo!\n\n Use Like This\n.gitclone RepoUrl/Branch',MessageType.text, { quoted: QueenSew.data}) 
+                  return await QueenSew.client.sendMessage(BlackyRed.jid,'Sorry I Could Not Find master Branch Of this Repo!\n\n Use Like This\n.gitclone RepoUrl/Branch',MessageType.text, { quoted: QueenSew.data}) 
 
                   } 
 
@@ -446,15 +446,15 @@ RedBlacky['IntroduceCMD']({
 
         }, 
 
-(async (QueenSew, input) => { 
+(async (BlackyRed, input) => { 
 
         try { 
 
-await sendMessageDownloader(QueenSew, input, 'igprop') 
+await sendMessageDownloader(BlackyRed, input, 'igprop') 
 
                 } catch (e) { 
 
-                  return await QueenSew.client.sendMessage(QueenSew.jid,'Sorry I Could Not Find It!',MessageType.text, { quoted: QueenSew.data}) 
+                  return await BlackyRed.client.sendMessage(BlackyRed,jid,'Sorry I Could Not Find It!',MessageType.text,BlackyRed { quoted: data}) 
 
                   } 
 
